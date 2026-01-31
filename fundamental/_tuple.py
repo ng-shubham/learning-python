@@ -1,0 +1,12 @@
+tuple = ('mango', 'banana', 'cherry', 'cherry', 11, 25.5, True)
+print(tuple)
+# print('type', type(tuple))
+# print('length', len(tuple))
+# print('first element', tuple[0])
+# print('fourth element', tuple[3])
+# print('last element', tuple[-2])
+# print('slice', tuple[1:4])
+# print('index of banana', tuple.index('banana'))
+# print('count of cherry', tuple.count('cherry'))
+
+print(tuple.count('cherry'))
