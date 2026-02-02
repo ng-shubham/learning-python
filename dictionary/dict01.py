@@ -11,9 +11,13 @@ marks = {
 # print(marks)
 # print('Keys:',marks.keys())
 # print('Values:',marks.values())
-marks.update({"Alice": 92, "Eve": 95})
-print(marks)
+# marks.update({"Alice": 92, "Eve": 95})
+# print(marks)
 
-print('Bob:', marks.get("Bob"))
-print('Bob:', marks.get("Bob123")) # None
+# print('Bob:', marks.get("Bob"))
+# print('Bob:', marks.get("Bob123")) # None
 # print(marks["Bob123"]) # KeyError
+
+word = input("Enter a word: ")
+
+print(marks[word])
