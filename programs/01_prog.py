@@ -1,8 +1,7 @@
 #find second largest number from the list
-list1 = [91, 2, 13, 14, 51]
+list1 = [-91, -2, -13, -14, -51]
 
-largest = 0
-second_largest = 0
+largest = second_largest = float("-inf")
 
 for num in list1:
     if num > largest:
