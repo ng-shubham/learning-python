@@ -3,7 +3,7 @@
 seq = [1, 2, 3, 4, 5, 7, 8]
 n = 8
 
-exp_sum = n * (n+1) // 2
+exp_sum = n * (n+1) // 2    #We use // to avoid getting decimal values.
 actual_sum = sum(seq)
 
 print('exp: ', exp_sum)
